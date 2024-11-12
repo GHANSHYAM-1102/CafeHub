@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Hover Zoom and Shadow Effect</title>
+<style>
+    .image-container {
+        position: relative;
+        display: inline-block;
+        overflow: hidden; /* Ensure the image doesn't overflow its container */
+    }
+    
+    .image-container:hover .image-shadow {
+        box-shadow: 0 4px 8px rgba(5,5,5,5);
+        transform: scale(1.1); /* Zoom in effect */
+    }
+
+    .image-shadow {
+        transition: box-shadow 0.3s ease, transform 0.3s ease; /* Transition both box-shadow and transform */
+    }
+
+    /* Optional: adjust the shadow size and color */
+    /* You can customize these values according to your preference */
+    /* .image-shadow {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+        // adjust the shadow size and color as needed
+    } */
+</style>
+</head>
+<body>
+
+<div class="image-container">
+    <img class="image-shadow" src="images/Bestseller.jpg" alt="Your Image">
+</div>
+
+</body>
+</html>

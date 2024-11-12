@@ -1,0 +1,151 @@
+.image-container {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    /* Ensure the image doesn't overflow its container */
+}
+
+.image-container:hover .image-shadow {
+    box-shadow: 0 4px 8px rgba(5, 5, 5, 5);
+    transform: scale(1.1);
+    /* Zoom in effect */
+}
+
+.image-shadow {
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    /* Transition both box-shadow and transform */
+}
+
+/* Define the hover effect for each image */
+#effect:hover {
+    transform: scale(1.1);
+    /* Zoom in effect */
+}
+
+/* Optional: Add transition for smoother animation */
+#effect {
+    transition: transform 0.3s ease;
+    /* Smooth transition */
+}
+
+#footer {
+    text-decoration: none;
+    /* Remove underline */
+    color: inherit;
+    /* Use the color inherited from the parent */
+}
+
+#footer:hover {
+    color: blueviolet
+}
+
+
+
+/* ABOUT SECTION */
+.about {
+    display: flex;
+    justify-content: space-between;
+    margin: 10% 5%;
+}
+
+.about-left-side img {
+    max-width: 100%;
+    height: 30%;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.about-left-side .about-image-1 {
+    width: 400px;
+    height: 300px;
+}
+
+.about-left-side .about-image-2 {
+    width: 300px;
+    height: 400px;
+}
+
+.about-left-side .about-image-3 {
+    width: 300px;
+    height: 300px;
+}
+
+.about-left-side .about-image-4 {
+    width: 250px;
+    height: 250px;
+}
+
+.about-right-side {
+    margin-top: 8%;
+}
+
+.about-right-side h3 {
+    color: chocolate;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.about-right-side h1 {
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+
+.about-right-side h3 span {
+    content: "";
+    width: 8%;
+    height: 2px;
+    padding: 4px;
+    display: inline-flex;
+    background-color: chocolate;
+}
+
+.about-right-side p {
+    max-width: 600px;
+    padding-bottom: 40px;
+}
+
+.flex {
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.flex span {
+    content: "";
+    width: 2%;
+    padding: 3px;
+    display: flex;
+    margin-left: 20px;
+    background-color: chocolate;
+}
+
+.flex h2 {
+    padding: 0px 30px;
+    font-size: 50px;
+}
+
+.flex h4 {
+    font-size: 25px;
+}
+
+
+
+
+/* MENU */
+#photo:hover {
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.5);
+}
+
+/*CARD*/
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#upcoming:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}

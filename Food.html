@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CafeHub</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">CafeHub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar -->
+
+
+
+    <!-- menu -->
+    <div class="container">
+        <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <button class="nav-link" id="nav-Bestseller-tab" data-bs-toggle="tab"
+                    data-bs-target="#nav-Bestseller" type="button" role="tab" aria-controls="nav-Bestseller"
+                    aria-selected="false">Bestseller</button>
+                <button class="nav-link active" id="nav-Food-tab" data-bs-toggle="tab" data-bs-target="#nav-Food" type="button"
+                    role="tab" aria-controls="nav-Food" aria-selected="true">Food</button>
+                <button class="nav-link" id="nav-Drinks-tab" data-bs-toggle="tab" data-bs-target="#nav-Drinks"
+                    type="button" role="tab" aria-controls="nav-Drinks" aria-selected="false">Drinks</button>
+                <button class="nav-link" id="nav-Merchandise-tab" data-bs-toggle="tab" data-bs-target="#nav-Merchandise"
+                    type="button" role="tab" aria-controls="nav-Merchandise" aria-selected="false">Merchandise</button>
+
+            </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade m-5" id="nav-Bestseller" role="tabpanel"
+                aria-labelledby="nav-Bestseller-tab" tabindex="0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md" id="photo">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/Bestseller1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Caffe Americano</h5>
+                                    <p class="card-text">SHORT(237 Ml) .0 kcal <br>
+                                        Rich in flavour, full-bodied espresso with hot water in true...</p>
+                                    <button class="btn btn-info">₹ 262.50</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md" id="photo">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/Bestseller2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cold coffee</h5>
+                                    <p class="card-text">TALL(354 ML) .354 kcal <br>
+                                        Our signature rich in flavour espresso blended with delicate...</p>
+                                    <button class="btn btn-info">₹ 362.25</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md" id="photo">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/Bestseller3.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cappuccino</h5>
+                                    <p class="card-text">SHORT(237 ML) .104 Kcal <br>
+                                        Dark, Rich in flavour espresso lies in wait under a smoothed...</p>
+                                    <button class="btn btn-info">₹ 283.50</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane show active fade m-5" id="nav-Food" role="tabpanel" aria-labelledby="nav-Food-tab" tabindex="0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md" id="photo">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/Food1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Spiced Paneer Sandwich in Focaccia</h5>
+                                    <p class="card-text">225g/727kcal. <br>
+                                        Freshly Assembled Sandwich An Indian masala paneer with toma...</p>
+                                    <button class="btn btn-info">₹ 409.50</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md" id="photo">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/Food2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pesto & Mozzarella Panini Sandwich</h5>
+                                    <p class="card-text">522g/759kcal.<br>
+                                        Panini bread with basil pesto sauce, tomatoes and mozzarella...</p>
+                                    <button class="btn btn-info">₹ 425.25
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md" id="photo">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/Food3.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Three Dip Chips</h5>
+                                    <p class="card-text">152g/459kcal. <br>
+                                        Crispy Tortilla Chips loaded with peri peri cheesy dip, spic...</p>
+                                    <button class="btn btn-info">₹ 273.00</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade m-5" id="nav-Drinks" role="tabpanel" aria-labelledby="nav-Drinks-tab"
+                tabindex="0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md" id="photo">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/Drinks1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cappuccino</h5>
+                                    <p class="card-text">SHORT(237 ML) .104 Kcal <br>
+                                        Dark, Rich in flavour espresso lies in wait under a smoothed...</p>
+                                    <button class="btn btn-info">₹ 283.50</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md" id="photo">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/Drinks2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Caffe Latte</h5>
+                                    <p class="card-text">TALL(354 ML) .392 kcal <br>
+                                        Mocha sauce and Frappuccino® chips blended with with Frappu...</p>
+                                    <button class="btn btn-info">₹ 367.50</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md" id="photo">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/Drinks3.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Caffè Mocha</h5>
+                                    <p class="card-text">TALL(654 ML) .482 kcal <br>
+                                        Mocha sauce and Frappuccino® chips blended with with Frappu...</p>
+                                    <button class="btn btn-info">₹ 367.50</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade m-5" id="nav-Merchandise" role="tabpanel" aria-labelledby="nav-Merchandise-tab"
+                tabindex="0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md" id="photo">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/Merchandise1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Rabbit Holiday Mug - 89 ml</h5>
+                                    <p class="card-text">Get into the holiday spirit with our Rabbit-themed mug, perf...</p>
+                                    <button class="btn btn-info">₹ 2250.00</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md" id="photo">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/Merchandise2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">MUGGIFT: Little Holiday Present -89 ml</h5>
+                                    <p class="card-text">Discover the joy of a little holiday surprise with our MUGGI...
+                                    </p>
+                                    <button class="btn btn-info">₹ 950.00</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md" id="photo">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/Merchandise3.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Valentine Heart Mug - 355 ml</h5>
+                                    <p class="card-text">Express your love with every sip using the Valentine Heart M...</p>
+                                    <button class="btn btn-info">₹ 1300.00</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- menu -->
+
+    <footer class="container">
+        <p>© 2023-2024 CafeHub, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+      </footer>
+
+
+
+
+</body>
+
+</html>
